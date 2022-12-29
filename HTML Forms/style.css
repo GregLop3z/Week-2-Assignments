@@ -1,0 +1,151 @@
+*{
+    background-color: #f2dbb3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #a47454;
+
+}
+
+.navbar {
+    display:flex;
+    flex-flow: nowrap;
+    position: fixed;
+    margin-top: -25px;
+    margin-right:0px;
+    width: 100%;
+    height: 22%;
+    z-index: 1;
+    box-shadow: 1px 1px darkolivegreen;
+    background-image: url("./Images/LOGO .png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 180px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-top: 45px;
+    padding-left: 25px;
+    color: #a47454;
+}
+
+.navbar li img{
+    position: relative;
+    left: 1140px;
+    top: 25px;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+.banner-image-1 {
+    width: 100vh;
+    height: 73vh;
+    margin-top: 90px;
+}
+
+.banner-image-2 {
+    width: 100vh;
+    height: 73vh;
+    margin-top: 90px;
+}
+
+.banner-image-1 img {
+    width: 100vh;
+    height: 73vh;
+    margin-top: 90px;
+    filter: brightness(40%);
+}
+
+.banner-image-2 img {
+    width: 773px;
+    height: 73vh;
+    margin-top: 90px;
+    filter: brightness(40%);
+}
+
+.banner-content {
+    height: 0px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+.banner-content-2 {
+    text-align: center;
+} 
+
+.banner-content button {
+    border-color: white;
+    color: white;
+    margin-left: 204px;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 180px;
+    box-shadow: 2px 2px grey;
+    cursor: pointer;
+}
+
+.grid-header h1 {
+    margin-left: 690px;
+    color: #a47454;
+}
+
+.grid {
+    display: grid;
+    margin-left: 547px;
+    row-gap: 25px ;
+}
+
+.grid img{
+    border-radius: 25px;
+    width: 425px;
+    height: 425px;
+}
+
+.card{
+    text-align: center;
+    width: 420px;
+    color: #0c627e;
+}
+
+.card h2 {
+    color: #a47454 ;
+}
+
+.card button {
+    background-color: #a47454;
+    color: #0c627e;
+    border: none;
+    font-size: 25px;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 2px 2px grey;
+    cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.footer button {
+    color: black;
+    box-shadow: 1px 1px black;
+    border-radius: 10px;
+    margin-left: 10px ;
+    width: 150px;
+    cursor: pointer;
+}
